@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">About Me Application</string>
     <string name="name">Fred Ojure</string>
+    <string name="yellow_star">yellow_string</string>
+    <string name="bio">
+        Hi, I am Fred.
+        \n\nI love coding. My language of choice is Python
+    </string>
 </resources>
