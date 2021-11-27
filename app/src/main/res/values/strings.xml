@@ -4,6 +4,18 @@
     <string name="yellow_star">yellow_string</string>
     <string name="bio">
         Hi, I am Fred.
-        \n\nI love coding. My language of choice is Python
+        \n\nI love coding. My language of choice is Python.
+        \nI also have skills in:
+        \n\nJava
+        \nC++
+        \nJavascript
+        \nAndroid Kotlin
+        \n\nMy Python frameworks are:
+        \nDjango
+        \nFlask
+        \n\nMy Frontend Framework of coice:
+        \n\nAngular
     </string>
+    <string name="what_is_your_nickname">\"What is your nickname\"</string>
+    <string name="done">DONE</string>
 </resources>
