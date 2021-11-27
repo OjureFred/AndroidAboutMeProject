@@ -14,6 +14,7 @@ import com.ojurexx.aboutme.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+    private val myName: MyName = MyName(" Fredrick Ojure")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         //findViewById<Button>(R.id.done_button).setOnClickListener{
         //    addNickname(it)
         //}
+        binding.myName = myName
 
         binding.doneButton.setOnClickListener {
             addNickname(it)
@@ -33,7 +35,8 @@ class MainActivity : AppCompatActivity() {
 
         binding.apply {
 
-            nicknameText.text = binding.nicknameEdit.text
+            //nicknameText.text = binding.nicknameEdit.text
+            myName?.nickname = nicknameEdit.text.toString()
             invalidateAll()
             nicknameEdit.visibility = View.GONE
             view.visibility = View.GONE
